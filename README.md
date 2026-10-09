@@ -1,15 +1,13 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00FF00&width=600&center=true&vCenter=true&lines=Tugas+Pemrograman+Berorientasi+Objek+(PBO);Java+OOP+Implementation;Enkapsulasi%2C+Pewarisan%2C+Polimorfisme" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=FFFFFF&width=600&center=true&vCenter=true&lines=Tugas+Pemrograman+Berorientasi+Objek+(PBO);Implementasi+OOP+Java;Enkapsulasi%2C+Pewarisan%2C+Polimorfisme" alt="Typing SVG" />
   <br>
   <marquee scrollamount="10" direction="left" behavior="alternate">🚀 <b>PEMROGRAMAN BERORIENTASI OBJEK 2026</b> 🚀</marquee>
   
   <p>
-    <img src="https://img.shields.io/badge/Language-Java-orange?style=for-the-badge&logo=java" alt="Java" />
-    <img src="https://img.shields.io/badge/Concept-OOP-blue?style=for-the-badge" alt="OOP" />
-    <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge" alt="Status" />
+    <img src="https://img.shields.io/badge/Bahasa-Java-orange?style=for-the-badge&logo=java" alt="Java" />
+    <img src="https://img.shields.io/badge/Konsep-OOP-blue?style=for-the-badge" alt="OOP" />
+    <img src="https://img.shields.io/badge/Status-Selesai-success?style=for-the-badge" alt="Status" />
   </p>
-  
-  <img src="https://media.giphy.com/media/qgQUggCGvnP19Xz0TE/giphy.gif" width="300" alt="Coding GIF">
 </div>
 
 # Tugas Pemrograman Berorientasi Objek (PBO)
