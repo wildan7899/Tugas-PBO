@@ -1,6 +1,9 @@
 # Compiled class file
 *.class
 
+# Settingan vscode bandel
+*.vscode
+
 # Log file
 *.log
 
