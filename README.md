@@ -1,3 +1,9 @@
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00FF00&width=600&center=true&vCenter=true&lines=Tugas+Pemrograman+Berorientasi+Objek+(PBO);Java+OOP+Implementation;Enkapsulasi%2C+Pewarisan%2C+Polimorfisme" alt="Typing SVG" />
+  <br>
+  <marquee scrollamount="10" direction="left" behavior="alternate">🚀 <b>TUGAS PEMROGRAMAN BERORIENTASI OBJEK - WILDAN AFANDIKA (F1D02510141)</b> 🚀</marquee>
+</div>
+
 # Tugas Pemrograman Berorientasi Objek (PBO)
 
 **Nama** : Wildan Afandika  
