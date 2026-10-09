@@ -55,7 +55,7 @@ public class Silinder extends Lingkaran {
     private double tinggi;
     
     public Silinder(double tinggi, double radius, String warna) {
-        super(radius, warna); // Memanggil constructor parent
+        super(radius, warna);
         this.tinggi = tinggi;
     }
 }
