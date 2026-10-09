@@ -1,8 +1,13 @@
-# Tugas Pemrograman Berbasis Objek (PBO) - Hierarki Kelas OOP
+# Tugas Pemrograman Berorientasi Objek (PBO)
 
-Repositori ini berisi implementasi tugas pemrograman berorientasi objek dalam bahasa Java, mencakup konsep enkapsulasi, pewarisan (inheritance), dan polimorfisme (method overriding).
+**Nama** : Wildan Afandika  
+**NIM**  : F1D02510141  
 
-## Struktur Kelas & Penerapan Pilar OOP
+---
+
+Repositori ini berisi implementasi tugas pemrograman berorientasi objek dalam bahasa Java yang mencakup penerapan konsep *Enkapsulasi*, *Pewarisan (Inheritance)*, dan *Polimorfisme (Method Overriding)*. Program ini memodelkan perhitungan geometri dasar untuk bangun datar dan bangun ruang.
+
+## 📌 Struktur Kelas & Penerapan OOP
 
 ### 1. Encapsulation (Enkapsulasi)
 Enkapsulasi diterapkan dengan menggunakan access modifier `private` pada variabel atribut di setiap kelas, sehingga data terlindungi dari akses langsung luar kelas. Akses dan modifikasi nilai dilakukan melalui method `getter` dan `setter`.
@@ -23,55 +28,59 @@ public class Bentuk {
     public void setWarna(String warna) {
         this.warna = warna;
     }
-    ...
 }
 ```
 
 ### 2. Inheritance (Pewarisan)
-Pewarisan menggunakan keyword `extends` untuk mewarisi properti dan method dari parent class ke child class:
+Pewarisan menggunakan keyword `extends` untuk mewarisi atribut dan method dari *parent class* ke *child class*:
 - `BujurSangkar` mewarisi `Bentuk`
 - `Lingkaran` mewarisi `Bentuk`
 - `Silinder` mewarisi `Lingkaran` (multilevel inheritance)
 
-Contoh pada kelas `Silinder`:
+Contoh pada kelas `Silinder` yang memanggil *constructor* dari *parent class*-nya (`Lingkaran`):
 ```java
 public class Silinder extends Lingkaran {
     private double tinggi;
     
     public Silinder(double tinggi, double radius, String warna) {
-        super(radius, warna);
+        super(radius, warna); // Memanggil constructor parent
         this.tinggi = tinggi;
     }
-    ...
 }
 ```
 
-### 3. Polymorphism (Polimorfisme & Method Overriding)
-Polimorfisme diterapkan melalui *method overriding*, di mana child class menyediakan implementasi spesifik dari method `printInfo()` yang dideklarasikan di parent class.
+### 3. Polymorphism (Polimorfisme)
+Polimorfisme diterapkan melalui *method overriding*, di mana *child class* menimpa/menyediakan implementasi spesifik dari method `printInfo()` yang dideklarasikan di *parent class*.
 
 Contoh pada kelas `BujurSangkar`:
 ```java
 @Override
 public void printInfo() {
-    System.out.println("Bujursangkar berwarna " + getWarna() + ", luas = " + hitungLuas());
+    System.out.println(" [+] Bujur Sangkar");
+    System.out.println("     - Warna : " + getWarna());
+    System.out.println("     - Sisi  : " + sisi);
+    System.out.println("     - Luas  : " + hitungLuas());
+    System.out.println();
 }
 ```
 
 ---
 
-## Screenshot Hasil Eksekusi Program
+## 🚀 Cara Menjalankan Program
 
-![Screenshot Output](link_gambar_disini)
-
----
-
-## Cara Menjalankan Program
-
-1. Kompilasi kode sumber:
+1. Buka terminal/Command Prompt di direktori utama *project* ini.
+2. Kompilasi semua file *source code* Java menggunakan `javac` (hasil *compile* akan masuk ke folder `bin`):
    ```bash
    javac -d bin src/*.java
    ```
-2. Jalankan program utama:
+3. Jalankan program utamanya (`Main.class`):
    ```bash
    java -cp bin Main
    ```
+
+---
+
+## 🖼️ Screenshot Hasil Eksekusi Program
+
+![Screenshot Output](assets/output.png)
+
