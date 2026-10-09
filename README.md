@@ -5,7 +5,7 @@
 
 ---
 
-Repositori ini berisi implementasi tugas pemrograman berorientasi objek dalam bahasa Java yang mencakup penerapan konsep *Enkapsulasi*, *Pewarisan (Inheritance)*, dan *Polimorfisme (Method Overriding)*. Program ini memodelkan perhitungan geometri dasar untuk bangun datar dan bangun ruang.
+Repositori ini berisi implementasi tugas pemrograman berorientasi objek dalam bahasa Java yang mencakup penerapan konsep *Enkapsulasi*, *Pewarisan (Inheritance)*, dan *Polimorfisme*. Program ini memodelkan perhitungan geometri dasar untuk bangun datar dan bangun ruang.
 
 ## 📌 Struktur Kelas & Penerapan OOP
 
